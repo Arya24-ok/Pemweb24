@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="https://drive.google.com/thumbnail?id=1c0vEjgYmK2mlqndAGd9OQJpUdxN7mSAy" type="image/x-icon">
+    <title>ExploreNesia</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">ExploreNesia</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#trending">Trending</a></li>
+          <li class="link"><a href="#destination">Destinations</a></li>
+          <li class="link"><a href="#guide">Guide</a></li>
+          <li class="link"><a href="#client">Client</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Your Personal Guide to Unforgettable Adventures</h1>
+        <div class="header__form">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Where do you want to go?</label>
+              <input type="text" placeholder="city, destination" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Check In</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Check Out</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="guests">Guests</label>
+              <input type="text" placeholder="Number of guests" />
+            </div>
+            <button class="btn">CHECK AVAILABILITY</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">Trending 2024</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="Pantai.jpg" alt="trending" />
+          <h1>Beach Tour</h1>
+          <p>Diving</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp. 5.000.000</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.8 (10)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 7 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="Komodo.jpg" alt="trending" />
+          <h1>Komodo Island Tour</h1>
+          <p>Adventure Journey | Group Tour</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>Rp. 5.500.000</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.2 (25)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 3 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="Air.jpg" alt="trending" />
+          <h1>Mata Jitu Waterfall Tour</h1>
+          <p>Scenic Beauty</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>1.000.000</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.5 (15)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 1 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <div class="section__header">
+        <h2 class="section__title">Top Destinations</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="Air.jpg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Queen Waterfall</h4>
+            <p>Waterfall</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Hiu.jpeg" alt="destination" />
+          <div class="badge">4.9</div>
+          <div class="destination__details">
+            <h4>Gigi Hiu</h4>
+            <p>Beach</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Komodo.jpg" alt="destination" />
+          <div class="badge">4.8</div>
+          <div class="destination__details">
+            <h4>Komodo Island</h4>
+            <p>Nature Tourism</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="RajaAmpat.jpg" alt="destination" />
+          <div class="badge">4.6</div>
+          <div class="destination__details">
+            <h4>Raja Ampat</h4>
+            <p>Beach</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Borobudur.jpg" alt="destination" />
+          <div class="badge">4.5</div>
+          <div class="destination__details">
+            <h4>Borobudur</h4>
+            <p>Wonders of The World</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Kuningan.jpg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Kuningan Beach</h4>
+            <p>Beach</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container seller__container" id="seller">
+      <div class="section__header">
+        <h2 class="section__title">Best Seller</h2>
+        <div class="section__btn">
+          <button class="btn">Check All</button>
+        </div>
+      </div>
+      <div class="seller__grid">
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="Kuningan.jpg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">30%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>10 Days | 09 Nights</p>
+                  <h4>Rp. 4.500.000</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Kuningan Beach</h4>
+            <p>Discover the unmatched beauty of tropical beaches with Beach Tour!</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="RajaAmpat.jpg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">20%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>05 Days | 06 Nights</p>
+                  <h4>Rp. 3.000.000</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Raja Ampat</h4>
+            <p>Where the ocean's beauty meets your soul's serenity</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="Borobudur2.jpg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">25%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>07 Days | 06 Nights</p>
+                  <h4>Rp. 4.000.000</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Borobuder Temple</h4>
+            <p>Discover the Majestic Borobudur Temple with Our Exclusive Tours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tour">
+      <div class="section__container tour__container">
+        <h4>Watch Our Video Tour</h4>
+        <div class="video__container">
+          <iframe 
+              width="620" 
+              height="300" 
+              src="https://www.youtube.com/embed/5myfOaVzKw0" 
+              frameborder="0" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen>
+          </iframe>
+      </div>
+      </div>
+    </section>
+
+    <section class="section__container guide__container" id="guide">
+      <div class="section__header">
+        <h2 class="section__title">Tour Guide</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="guide__grid">
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Arya.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="https://id.linkedin.com/in/arya-putra-pratama-ansori-156917291"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="https://www.instagram.com/aryaansori/"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="https://m.facebook.com/arya.p.ansori/"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Arya</h4>
+              <p>Beach Guide</p>
+            </div>
+            <p>
+              Get ready to unwind, breathe in the sea air, and let your feet make friends with the warm sand.
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Tegar.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>M. Tegar Dwi Prakoso</h4>
+              <p>Tourism Guide</p>
+            </div>
+            <p>
+              Welcome to paradise! Here, the waves don’t just crash—they tell stories waiting to be heard.
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Siska.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Siska Septiana</h4>
+              <p>City Guide</p>
+            </div>
+            <p>
+              With a passion for travel and a commitment to excellence, we
+              curate memorable experiences that go beyond the ordinary.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="section__header">
+        <h2 class="section__title">Clients Feedback</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="client__grid">
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <p>
+            Saya memiliki pengalaman paling luar biasa menggunakan tur dan perjalanan ini
+            situs web. Dari memesan penerbangan dan akomodasi saya hingga menjelajahi
+            kegiatan lokal yang unik, semuanya mulus dan terorganisir dengan baik.
+            Itu membuat perjalanan saya bebas stres dan tak terlupakan. Saya tidak sabar untuk merencanakan
+            petualangan saya berikutnya bersama mereka!
+          </p>
+          <div class="client__card__footer">
+            <img src="https://yt3.ggpht.com/a/AGF-l7-HqPLjRWcQGNCcz_oqBlF4oyw7or_zLZHL=s900-mo-c-c0xffffffff-rj-k-no" alt="client" />
+            <div class="client__details">
+              <h4>Windah Basudara</h4>
+              <p>Content Creator</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          </div>
+          <p>
+            Saya sangat puas dengan layanan jasa travel Anda Perjalanan kami ke destinasi wisata terasa sangat nyaman dan aman. Tim Anda sangat ramah dan profesional dalam mengatur segala hal dari pemesanan hingga pengembalian. Saya akan merekomendasikan jasa ini kepada teman-teman saya.
+          </p>
+          <div class="client__card__footer">
+            <img src="https://th.bing.com/th/id/OIP.djv-I28k6A9Rn4NUdKh_QAHaJQ?rs=1&pid=ImgDetMain" alt="client" />
+            <div class="client__details">
+              <h4>Parjo</h4>
+              <p>Police</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <p>
+            Terima kasih jasa travel Anda telah membuat liburan saya begitu menyenangkan Semua detail seperti transportasi, penginapan, dan aktivitas wisata sudah disiapkan dengan baik. Kami sangat senang dengan pelayanan prima dan harga yang kompetitif. Pastinya akan memilih lagi jika ada kesempatan lain.
+          </p>
+          <div class="client__card__footer">
+            <img src="https://pbs.twimg.com/profile_images/511553075870322689/L4r4kxo0_400x400.jpeg" alt="client" />
+            <div class="client__details">
+              <h4>siti</h4>
+              <p>Mahasiswa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <h4>Be Updated</h4>
+        <form action="/">
+          <input type="text" placeholder="Please enter your email address" />
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5>ExploreNesia</h5>
+          <p>
+            Welcome to ExploreNesia, our tour and travel website is your gateway
+            to a Indonesian of Tourism.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#destination">Destinations</a>
+          <a href="#subscribe">Write to Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer__col">
+          <h4>Features</h4>
+          <a href="#">Vacation Package</a>
+          <a href="#">List of Tours</a>
+          <a href="#">Gallery</a>
+          <a href="#">Travel on a Budget</a>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+            <span>
+              <a href="https://www.linkedin.com/in/m-tegar-dwi-prakoso-a78a45291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-fill"></i></a>
+            </span>
+            <span>
+              <a href="https://www.instagram.com/siska_s795/"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+              <a href="https://www.facebook.com/arya.p.ansori"><i class="ri-facebook-fill"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
